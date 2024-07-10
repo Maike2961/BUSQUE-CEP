@@ -13,7 +13,7 @@ body {
   background-image: url("img/hin-bong-yeung-jF946mh5QrA-unsplash.jpg");
 }
 
-h2 {
+h2, p {
   color: #fefbff;
   font-weight: 100;
 }
