@@ -31,8 +31,21 @@ ul {
   margin-top: 2rem;
   margin-bottom: 1rem;
   border: 1px #edeaef solid;
+  box-shadow: none;
+  animation: pulse infinite 5s;
 }
 
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fefbff;
+  }
+  50% {
+    box-shadow: 0 0 10px 10px #fefbff;
+  }
+  100% {
+    box-shadow: 0 0 0 0 #fefbff;
+  }
+}
 .button {
   margin-top: 1rem;
   border: none;

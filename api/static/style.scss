@@ -32,6 +32,22 @@ ul{
     margin-top: 2rem;
     margin-bottom: 1rem;
     border: 1px $white-dark solid;
+    box-shadow: none;
+    animation: pulse infinite 5s;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 $white-light;
+    }
+
+    50%{
+        box-shadow: 0 0 10px 10px $white-light
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 $white-light;
+    }
 }
 
 .button{
