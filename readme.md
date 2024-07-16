@@ -2,6 +2,7 @@
 
 ## Em Docker, use os comandos 
 
+### Vá até a pasta no cmd e rode esses comandos
 ### docker build -t dockerimage .
 ### docker run --p 5000:5000 --name any-name dockerimage 
 
